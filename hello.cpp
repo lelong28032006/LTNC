@@ -2,7 +2,10 @@
 #include "hello.h"
 
 using namespace std;
-
+int randomNumber() {
+    int ran = rand()%100 + 1;
+    return ran;
+}
 
 int takeNumber() {
     int n;
