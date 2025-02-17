@@ -4,10 +4,9 @@
 using namespace std;
 
 int main() {
-    double a, b, c;
-    cin >> a >> b >> c;
-
-
-
-
+    srand(time(0));
+    int ans;
+    ans = randomNumber();
+    cout << PlayerGuess(ans) << endl;
+    return 0;
 }
